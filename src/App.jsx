@@ -13,7 +13,6 @@ function App() {
     setContentType(type)
   }
 
-
   return (
 
     <div>
