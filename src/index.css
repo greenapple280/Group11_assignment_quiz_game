@@ -46,3 +46,10 @@ section ul li {
 p {
   padding: 1rem 0;
 }
+
+.container {
+  margin: 2rem;
+  display: flex;
+  place-items: center;
+  flex-direction: column;
+}
