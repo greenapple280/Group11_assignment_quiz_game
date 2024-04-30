@@ -1,4 +1,7 @@
 import "../index.css";
+import {useState} from "react";
+import axios from "axios";
+
 const Register = () => {
     const [username, setUsername] = useState("");
     const [email, setEmail] = useState ("");
