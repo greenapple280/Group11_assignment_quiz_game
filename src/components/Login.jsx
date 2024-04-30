@@ -32,7 +32,11 @@ const Login = () => {
 
         if (user.name === name && user.password === password) {
             navigate("/");
+
+            locslStorage.setItem("user", JSON.stringify(user.id));
         }
+        setName("");
+        setPassword("");
     }
 
     return (
@@ -55,7 +59,7 @@ const Login = () => {
                     />   
                              
                 </label>
-                <button className="btn" type="submit"
+                <button className="btn" type="submit" onCliock={handleSubmit}
                  >
                 
                     <p>Log in</p>     
