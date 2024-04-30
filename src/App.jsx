@@ -3,6 +3,8 @@ import Questions from './components/Questions'
 import Button from './components/Button/Button'
 import { useState } from 'react'
 import { ways, differences } from './data'   //from data.js
+import Login from './Components/Login'
+import Register from './Components/Register'
 
 function App() {
   const [ content, setContentType ] = useState(null)
@@ -39,6 +41,8 @@ function App() {
         </section>
       </main>
     </div>
+
+    
   )
 }
 
