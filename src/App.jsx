@@ -15,8 +15,14 @@ function App() {
 
 
   return (
+
     <div>
       <Header />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" lement={<Login />} />
+      </Routes>
       <main>
         <section>
           <h3>Вопросы & Ответы</h3>
